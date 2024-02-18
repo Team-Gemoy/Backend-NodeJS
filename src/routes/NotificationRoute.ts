@@ -106,7 +106,7 @@ notificationRoute.post(`/${prefix}`, notificationController.createNotification);
  *        application/json:
  *          schema:
  *            type: object
- *            $ref: '#/components/schemas/notification'
+ *            $ref: '#/components/schemas/Notification'
  *    responses:
  *      200:
  *        description: OK
